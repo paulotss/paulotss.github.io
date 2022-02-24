@@ -19,6 +19,14 @@ p#titulo {
     font-style: italic;
 }
 
+p#description {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
 .detq {
     font-weight: 600;
 }
@@ -26,6 +34,7 @@ p#titulo {
 .vlist {
     margin:0px;
     padding:0px;
+    text-align: center;
 }
 
 .vlist li {
