@@ -13,3 +13,7 @@ p#titulo {
     color: #5A6168;
     font-style: italic;
 }
+
+.detq {
+    font-weight: 600;
+}
