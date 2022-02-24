@@ -1,7 +1,7 @@
 body {
-    background-color: #CACCCE;
+    background-color: #F0EBD8;
     font-family: "Helvetica", sans-serif;
-    color: #495159;
+    color: #1D2D44;
 }
 
 #container {
@@ -11,6 +11,7 @@ body {
 
 h1#nome {
     line-height: 5px;
+    color: #0D1321;
 }
 
 #presentation {
@@ -18,7 +19,6 @@ h1#nome {
     justify-content: center;
     align-items: center;
     margin-top:40px;
-    margin-bottom: 20px;
 }
 
 #dados {
@@ -27,14 +27,14 @@ h1#nome {
 
 #foto {
     border-radius: 100%;
-    border:1px solid black;
+    border:2px solid #0D1321;
     float:left;
     width: 150px;
 }
 
 p#titulo {
     line-height: 5px;
-    color: #5A6168;
+    color: #1D2D44;
     font-style: italic;
 }
 
@@ -44,7 +44,8 @@ p#description {
 
 h3 {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 80px;
+    color: #0D1321;
 }
 
 #caixas {
@@ -83,10 +84,14 @@ h3 {
 }
 
 .menu li {
-    background-color: #495159;
+    background-color: #0D1321;
     padding: 10px;
 }
 
 .menu li a {
-    color: white;
+    color: #F0EBD8;
+}
+
+.menu li a:hover {
+    text-decoration: underline;
 }
