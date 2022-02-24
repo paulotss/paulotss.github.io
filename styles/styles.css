@@ -1,3 +1,15 @@
 body {
-    background-color: #8E9397;
+    background-color: #CACCCE;
+    font-family: "Helvetica", sans-serif;
+    color: #495159;
+}
+
+h1#nome {
+    line-height: 5px;
+}
+
+p#titulo {
+    line-height: 5px;
+    color: #5A6168;
+    font-style: italic;
 }
