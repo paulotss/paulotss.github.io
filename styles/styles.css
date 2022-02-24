@@ -4,6 +4,11 @@ body {
     color: #495159;
 }
 
+#container {
+    max-width: 1000px;
+    margin: auto;
+}
+
 h1#nome {
     line-height: 5px;
 }
