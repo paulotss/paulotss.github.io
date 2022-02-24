@@ -13,6 +13,25 @@ h1#nome {
     line-height: 5px;
 }
 
+#presentation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:40px;
+    margin-bottom: 20px;
+}
+
+#dados {
+    padding: 10px;
+}
+
+#foto {
+    border-radius: 100%;
+    border:1px solid black;
+    float:left;
+    width: 150px;
+}
+
 p#titulo {
     line-height: 5px;
     color: #5A6168;
@@ -25,6 +44,22 @@ p#description {
 
 h3 {
     text-align: center;
+    margin-top: 40px;
+}
+
+#caixas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c1 {
+    padding:20px;
+    margin:10px;
+    border:1px solid #696F76;
+    max-width: 500px;
+    min-width: 300px;
+    box-shadow: 2px 2px;
 }
 
 .detq {
@@ -45,4 +80,13 @@ h3 {
 .vlist li a {
     text-decoration: none;
     color: #495159;
+}
+
+.menu li {
+    background-color: #495159;
+    padding: 10px;
+}
+
+.menu li a {
+    color: white;
 }
