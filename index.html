@@ -1,67 +1,107 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>Paulo de Tarso</title>
-    <link rel="stylesheet" type="text/css" href="styles/styles.css">
 </head>
 <body>
-    <div id="container">
-        <ul class="vlist menu">
-            <li><a href="#about">About me</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#why">Why me?</a></li>
-            <li><a href="#contact">Contact</a></li>
+    <header id="cabecalho">
+        <img src="logo.png" alt="Logotipo" class="logo">
+        <h1 id="titulo">Paulo de Tarso</h1>
+
+        <nav class="topmenu">
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#inprogress">In Progress</a></li>
+                <li><a href="#aboutme">About me</a></li>
+                <li><a href="#trivia">Trivia</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <img id="minha_foto" src="paulo-perfil.jpg" alt="Foto" >
+        <h1>Paulo de Tarso</h1>
+        <h2>Web Developer</h2>
+    </section>
+
+    <section id="skills" class="skills">
+        <h1 class="titleSec">Skills</h1>
+        <ol id="licoes_aprendidas" class="lskills">
+            <li>Unix</li>
+            <li>Bash</li>
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>HTML Semântico</li>
+            <li>Assertividade</li>
+            <li>Inclusão</li>
+            <li>Diversidade</li>
+        </ol>
+    </section>
+
+    <section id="inprogress" class="skills">
+        <h1 class="titleSec">In Progress</h1>
+        <ul id="licoes_a_aprender" class="lskills lgskills">
+            <li>JavaScript</li>
+            <li>DOM</li>
+            <li>Web Storage</li>
+            <li>Jest</li>
+            <li>SQL</li>
+            <li>NodeJs</li>
+            <li>React</li>
+            <li>Docker</li>
+            <li>REST</li>
+            <li>TypeScript</li>
         </ul>
+    </section>
 
-        <div id="presentation">
-            <img id="foto" src="img/paulo-perfil.jpg" alt="Foto Perfil" >
-            <div id="dados">
-                <h1 id="nome">Paulo de Tarso</h1>
-                <p id="titulo">Web Developer</p>
-            </div>
-        </div>
+    <section id="aboutme" class="skills">
+        <h1 class="titleSec">About me</h1>
+        <article id="bio" class="lado-esquerdo">
+            <h1 class="titleArt">Bio</h1>
+            <p>
+                Sou natural de Taguatinga (Distrito Federal) e trabalho a mais de 10 anos como 
+                designer gráfico. Sou apaixonado por tecnologia e atualmente estou em transição 
+                de carreira para a área de <em>desenvolvimento web</em>.
+            </p>
+        </article>
+        <aside id="latest" class="lado-direito">
+            <h1  class="titleArt">Sobre os últimos dias...</h1>
+            <p>
+                Esses últimos dias foram de <b>muito</b> aprendizado, dedicação e esforço.
+                Muito prática de <b>hard skills</b>, mas o que tem mais feito diferença são as
+                <b>soft skills</b>.
+            </p>
+        </aside>
+    </section>
 
-        <h3 id="about">About me</h3>
+    <section id="trivia" class="skills">
+        <h1 class="titleSec">Trivia</h1>
+        <table>
+            <tr>
+                <td class="tright">Comida favorita</td>
+                <td class="tleft">Feijoada</td>
+            </tr>
+            <tr>
+                <td class="tright">Tempo livre</td>
+                <td class="tleft">Jogos online</td>
+            </tr>
+            <tr>
+                <td class="tright">Banda favorita</td>
+                <td class="tleft">RTAM</td>
+            </tr>
+        </table>
+    </section>
 
-        <p id="description">
-            Olá! Eu sou o Paulo! Sou <span class="detq">desenvolvedor web</span> e gosto de estudar filosofia nas horas vagas. 
-            :D. Gosto de conhecer pessoas novas e trabalhar em equipe. Desenvolver, aprender e 
-            ensinar são minhas paixões e valorizo muito as relações interpessoais. Sinta-se à 
-            vontade de me contactar! <span class="detq">Vamos trabalhar juntos!</span>
-        </p>
-
-        <h3 id="skills">My skills</h3>
-
-        <ul class="vlist">
-            <li><img src="img/html5-icon.png" alt="html"></li>
-            <li><img src="img/css-icon.png" alt="css"></li>
-            <li><img src="img/js-icon.png" alt="js"></li>
-        </ul>
-
-        <h3 id="why">Why me?</h3>
-
-        <div id="caixas">
-            <div class="c1">
-                <h4>Apaixonado por tecnologia</h4>
-                <p>Em construção...</p>
-            </div>
-            <div class="c1">
-                <h4>Assertividade</h4>
-                <p>Em construção...</p>
-            </div>
-        </div>
-
-        <h3 id="contact">Let's work together!</h3>
-
-        <ul class="vlist">
-            <li><a href="https://www.linkedin.com/in/paulo-de-tarso-dev/" target="_blank">
-                <img src="img/linkedin-icon.png" alt="linkedin"></a></li>
-            <li><a href="https://github.com/paulotss" target="_blank">
-                <img src="img/github-icon.png" alt="github"></a></li>
-            <li><a href="mailto:paulo.oinab@gmail.com" target="_blank">
-                <img src="img/gmail-icon.png" alt="gmail"></a></li>
-        </ul>
-    </div>
+    <footer id="rodape">
+        <h1>Vamos trabalhar juntos!</h1>
+        <a href="https://github.com/paulotss" target="_blank"><img src="github-icon.png" alt="Perfil GitHub"></a>
+        <a href="https://www.linkedin.com/in/paulo-de-tarso-dev/" target="_blank"><img src="linkedin-icon.png" alt="Perfil Linkedin"></a>
+        <a href="mailto:paulo.oinab@gmail.com"><img src="gmail-icon.png" alt="Email"></a>
+    </footer>
 </body>
 </html>

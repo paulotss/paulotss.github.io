@@ -1,0 +1,209 @@
+body {
+  background-color: rgb(253, 251, 251);
+  margin: 0;
+}
+
+p {
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.5em;
+}
+
+.titleSec {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: x-large;
+}
+
+.titleArt {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: large;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  border-bottom: 1px solid rgb(179, 179, 179);
+  width: 100%;
+  height: 61px;
+  background-color: white;
+}
+
+#cabecalho #titulo {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: larger;
+  display: inline-block;
+  color: rgb(82, 113, 255);
+  margin: 20px 10px;
+}
+
+.logo {
+  margin: 20px 10px;
+  height: 20px;
+  float: left;
+}
+
+.topmenu {
+  margin-left: auto;
+  float: right;
+}
+
+.topmenu ul {
+  padding: 0;
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.topmenu li {
+  display: inline;
+}
+
+.topmenu a {
+  text-decoration: none;
+  color: rgb(82, 113, 255);
+  padding: 10px;
+  border: 1px solid rgb(82, 113, 255);
+  border-radius: 5px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.topmenu a:hover {
+  background-color: rgb(82, 113, 255);
+  color: white;
+}
+
+#minha_foto {
+  width: 250px;
+  border-radius: 100%;
+  border: 3px solid black;
+}
+
+#inicio {
+  text-align: center;
+  vertical-align: middle;
+  height: 100%;
+  padding-top: 80px;
+}
+
+#inicio h1 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: x-large;
+  width: fit-content;
+  margin: auto;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border-radius: 25px;
+}
+
+#inicio h2 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: medium;
+  font-style: italic;
+  width: fit-content;
+  margin: 5px auto;
+  color: rgb(82, 113, 255);
+}
+
+.skills {
+  margin-top: 60px;
+  text-align: center;
+  overflow: auto;
+  vertical-align: center;
+}
+
+.skills .lskills {
+  padding: 0;
+  width: 50%;
+  margin: auto;
+}
+
+.skills .lskills li {
+  display: inline-block;
+  font-family: Helvetica, Arial, sans-serif;
+  padding: 10px;
+  color: white;
+  background-color: rgb(82, 113, 255);
+  border: 1px solid rgb(82, 113, 255);
+  border-radius: 25px;
+  margin: 5px;
+}
+
+.skills .lgskills li {
+  background-color: gray;
+  border: 1px solid gray;
+}
+
+#rodape {
+  background-color: rgb(82, 113, 255);
+  margin-top: 60px;
+  min-height: 100px;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+#rodape h1 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: medium;
+  font-style: italic;
+}
+
+#rodape img {
+  margin: 0 5px;
+}
+
+#trivia table {
+  margin: auto;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#trivia table td {
+  padding: 10px;
+}
+
+.tright {
+  font-weight: 900;
+  text-align: right;
+}
+
+.tleft {
+  font-style: italic;
+  text-align: left;
+}
+
+.lado-direito {
+  display: block;
+  float: right;
+  width: 30%;
+  line-height: 100%;
+  background-color: rgb(193, 193, 193);
+  margin: auto;
+  border-radius: 25px;
+}
+
+#latest h1 {
+  margin: 20px 20px 10px;
+}
+
+#latest p {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: smaller;
+  margin: 10px 20px 20px;
+}
+
+.lado-esquerdo {
+  display: block;
+  float: left;
+  width: 70%;
+  line-height: 100%;
+}
+
+#bio p {
+  margin: 20px;
+}
+
+#aboutme {
+  width: 50%;
+  margin: auto;
+  margin-top: 60px;
+}
